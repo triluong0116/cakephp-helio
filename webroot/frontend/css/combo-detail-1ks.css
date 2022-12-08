@@ -1,0 +1,44 @@
+.info-hotel .top .left {
+  padding-left: 0px;
+}
+.info-hotel .top .left .basic-info {
+  padding-bottom: 53px;
+}
+.info-hotel .top .left .basic-info .short-info {
+    
+  line-height: 35px;
+}
+
+.info-hotel .top .right {
+  padding-right: 0px;
+}
+.info-hotel .top .right .info-utility {
+  padding-bottom: 6px;
+}
+.info-hotel .top .right .info-utility p:not(:last-child) {
+  padding-bottom: 20px;
+}
+.info-hotel .top .right .info-utility p i {
+  padding-right: 20px;
+}
+.info-hotel .top .right .info-utility button.view-all {
+  width: 120px;
+}
+.term .left {
+  padding-left: 0px;
+}
+.term .left .content-left {
+  line-height: 35px;
+}
+.term .right {
+  padding-right: 0px;
+}
+.term .right .content-right {
+  line-height: 35px;
+}
+.term .bottom {
+  padding-left: 0px;
+}
+.term .bottom .content-bottom {
+  line-height: 35px;
+}

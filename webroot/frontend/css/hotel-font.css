@@ -1,0 +1,3094 @@
+@font-face {
+    font-family:icons-optimized;
+    src:url(../hotel-font/icons-subset-7c781b1.woff2) format("woff2"),
+    url(../hotel-font/icons-subset-7c781b1.woff) format("woff");
+    font-weight:400;
+    font-style:normal;
+    font-display:swap;
+    unicode-range:u+0-f163
+}
+@font-face {
+    font-family:icons-optimized;
+    src:url(../hotel-font/icons-subset-b781b76.woff2) format("woff2"),
+    url(../hotel-font/icons-subset-b781b76.woff) format("woff");
+    font-weight:400;
+    font-style:normal;
+    font-display:swap;
+    unicode-range:u+f164-f1c7
+}
+@font-face {
+    font-family:icons-optimized;
+    src:url(../hotel-font/icons-subset-7124f59.woff2) format("woff2"),
+    url(../hotel-font/icons-subset-7124f59.woff) format("woff");
+    font-weight:400;
+    font-style:normal;
+    font-display:swap;
+    unicode-range:u+f1c8-f22b
+}
+@font-face {
+    font-family:icons-optimized;
+    src:url(../hotel-font/icons-subset-28f1bee.woff2) format("woff2"),
+    url(../hotel-font/icons-subset-28f1bee.woff) format("woff");
+    font-weight:400;
+    font-style:normal;
+    font-display:swap;
+    unicode-range:u+f22c-f28f
+}
+@font-face {
+    font-family:icons-optimized;
+    src:url(../hotel-font/icons-subset-2ab21bb.woff2) format("woff2"),
+    url(../hotel-font/icons-subset-2ab21bb.woff2) format("woff");
+    font-weight:400;
+    font-style:normal;
+    font-display:swap;
+    unicode-range:u+f290-f2f3
+}
+@font-face {
+    font-family:icons-optimized;
+    src:url(../hotel-font/icons-subset-4980f00.woff2) format("woff2"),
+    url(../hotel-font/icons-subset-4980f00.woff) format("woff");
+    font-weight:400;
+    font-style:normal;
+    font-display:swap;
+    unicode-range:u+f2f4-f357
+}
+@font-face {
+    font-family:icons-optimized;
+    src:url(../hotel-font/icons-subset-4e4c518.woff2) format("woff2"),
+    url(../hotel-font/icons-subset-4e4c518.woff) format("woff");
+    font-weight:400;
+    font-style:normal;
+    font-display:swap;
+    unicode-range:u+f358-f3bb
+}
+@font-face {
+    font-family:icons-optimized;
+    src:url(../hotel-font/icons-subset-bba5306.woff2) format("woff2"),
+    url(../hotel-font/icons-subset-bba5306.woff) format("woff");
+    font-weight:400;
+    font-style:normal;
+    font-display:swap;
+    unicode-range:u+f3bc-f41f
+}
+@font-face {
+    font-family:icons-optimized;
+    src:url(../hotel-font/icons-subset-d65c6fe.woff2) format("woff2"),
+    url(../hotel-font/icons-subset-d65c6fe.woff) format("woff");
+    font-weight:400;
+    font-style:normal;
+    font-display:swap;
+    unicode-range:u+f420-f483
+}
+@font-face {
+    font-family:icons-optimized;
+    src:url(../hotel-font/icons-subset-d0aaa69.woff2) format("woff2"),
+    url(../hotel-font/icons-subset-d0aaa69.woff) format("woff");
+    font-weight:400;
+    font-style:normal;
+    font-display:swap;
+    unicode-range:u+f484-f4e3
+}
+
+.ficon {
+    font-family:icons-optimized;
+    display:inline-block;
+    vertical-align:middle;
+    line-height:1;
+    font-weight:400;
+    font-style:normal;
+    speak:none;
+    text-decoration:inherit;
+    text-transform:none;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    margin-bottom:3px
+}
+.PER-ICO-OPTIMIZE .ficon {
+    font-family:icons-optimized
+}
+
+.ficon-1ah:before {
+    content:"\F101"
+}
+.ficon-24-hour-finess-center:before {
+    content:"\F102"
+}
+.ficon-24hour-check-in:before {
+    content:"\F103"
+}
+.ficon-24hour-frontdesk:before {
+    content:"\F104"
+}
+.ficon-24hour-room-service:before {
+    content:"\F105"
+}
+.ficon-24hour-security:before {
+    content:"\F106"
+}
+.ficon-5-star-deal:before {
+    content:"\F107"
+}
+.ficon-desktop-ic-black-down:before {
+    content:"\F108"
+}
+.ficon-desktop-ic-black-down-arrow:before {
+    content:"\F109"
+}
+.ficon-desktop-ic-profile:before {
+    content:"\F10A"
+}
+.ficon-internet:before {
+    content:"\F10B"
+}
+.ficon-iron:before {
+    content:"\F10C"
+}
+.ficon-add-a-website:before {
+    content:"\F10D"
+}
+.ficon-additional-bathroom:before {
+    content:"\F10E"
+}
+.ficon-additional-fee-for-pets:before {
+    content:"\F10F"
+}
+.ficon-additional-information:before {
+    content:"\F110"
+}
+.ficon-additional-toilet:before {
+    content:"\F111"
+}
+.ficon-address:before {
+    content:"\F112"
+}
+.ficon-adults-line:before {
+    content:"\F113"
+}
+.ficon-adults-one:before {
+    content:"\F114"
+}
+.ficon-after-hours:before {
+    content:"\F115"
+}
+.ficon-afternoon-tea:before {
+    content:"\F116"
+}
+.ficon-agoda-price-guarante:before {
+    content:"\F117"
+}
+.ficon-air-bath-access:before {
+    content:"\F118"
+}
+.ficon-air-conditioning:before {
+    content:"\F119"
+}
+.ficon-air-purifier:before {
+    content:"\F11A"
+}
+.ficon-airport-transfer-big:before {
+    content:"\F11B"
+}
+.ficon-airport-transfer-oneway:before {
+    content:"\F11C"
+}
+.ficon-airport-transfer-roundtrip:before {
+    content:"\F11D"
+}
+.ficon-airport-transfer-small:before {
+    content:"\F11E"
+}
+.ficon-airport-transfer-solid:before {
+    content:"\F11F"
+}
+.ficon-airport-transfer:before {
+    content:"\F120"
+}
+.ficon-airports:before {
+    content:"\F121"
+}
+.ficon-alarm-clock:before {
+    content:"\F122"
+}
+.ficon-american-express:before {
+    content:"\F123"
+}
+.ficon-apartment:before {
+    content:"\F124"
+}
+.ficon-app-android:before {
+    content:"\F125"
+}
+.ficon-app-apple:before {
+    content:"\F126"
+}
+.ficon-app-windos:before {
+    content:"\F127"
+}
+.ficon-aps-lock:before {
+    content:"\F128"
+}
+.ficon-area:before {
+    content:"\F129"
+}
+.ficon-arrow-big-down:before {
+    content:"\F12A"
+}
+.ficon-arrow-big-up:before {
+    content:"\F12B"
+}
+.ficon-arrow-right-box:before {
+    content:"\F12C"
+}
+.ficon-arrow-right:before {
+    content:"\F12D"
+}
+.ficon-assembly-pin-border:before {
+    content:"\F12E"
+}
+.ficon-assembly-restaurant-line:before {
+    content:"\F12F"
+}
+.ficon-assembly-restaurant:before {
+    content:"\F130"
+}
+.ficon-atm-cash-machine-on-site:before {
+    content:"\F131"
+}
+.ficon-attractions:before {
+    content:"\F132"
+}
+.ficon-avatar-hotel:before {
+    content:"\F133"
+}
+.ficon-avatar-property:before {
+    content:"\F134"
+}
+.ficon-baby-cot:before {
+    content:"\F135"
+}
+.ficon-babysitting:before {
+    content:"\F136"
+}
+.ficon-back-to-top:before {
+    content:"\F137"
+}
+.ficon-badge-insider:before {
+    content:"\F138"
+}
+.ficon-badminton-court:before {
+    content:"\F139"
+}
+.ficon-balcony-terrace:before {
+    content:"\F13A"
+}
+.ficon-balloon-minus:before {
+    content:"\F13B"
+}
+.ficon-balloon-plus:before {
+    content:"\F13C"
+}
+.ficon-balloon:before {
+    content:"\F13D"
+}
+.ficon-bathrobes:before {
+    content:"\F13E"
+}
+.ficon-bathroom-basics:before {
+    content:"\F13F"
+}
+.ficon-bathroom-phone:before {
+    content:"\F140"
+}
+.ficon-bathrooms:before {
+    content:"\F141"
+}
+.ficon-bathtub:before {
+    content:"\F142"
+}
+.ficon-bbq-facilities:before {
+    content:"\F143"
+}
+.ficon-bc-global-card:before {
+    content:"\F144"
+}
+.ficon-beach:before {
+    content:"\F145";
+}
+.ficon-bed-property:before {
+    content:"\F146"
+}
+.ficon-bed:before {
+    content:"\F147"
+}
+.ficon-bedroom:before {
+    content:"\F148"
+}
+.ficon-bell-alerts:before {
+    content:"\F149"
+}
+.ficon-best-value:before {
+    content:"\F14A"
+}
+.ficon-bicycle-rental:before {
+    content:"\F14B"
+}
+.ficon-billiards:before {
+    content:"\F14C"
+}
+.ficon-blackout-curtains:before {
+    content:"\F14D"
+}
+.ficon-blizzard:before {
+    content:"\F14E"
+}
+.ficon-blowing-drifting-snow:before {
+    content:"\F14F"
+}
+.ficon-blowing-dust-sandstorm:before {
+    content:"\F150"
+}
+.ficon-blowing-spray-windy:before {
+    content:"\F151"
+}
+.ficon-boat:before {
+    content:"\F152"
+}
+.ficon-book-now-pay-later:before {
+    content:"\F153"
+}
+.ficon-book-without-a-creditcard:before {
+    content:"\F154"
+}
+.ficon-bottle-of-sparkling-wine:before {
+    content:"\F155"
+}
+.ficon-bottle-of-wine:before {
+    content:"\F156"
+}
+.ficon-bowling-alley:before {
+    content:"\F157"
+}
+.ficon-bracket-left:before {
+    content:"\F158"
+}
+.ficon-bracket-right:before {
+    content:"\F159"
+}
+.ficon-breakfast-buffet:before {
+    content:"\F15A"
+}
+.ficon-breakfast-one-person:before {
+    content:"\F15B"
+}
+.ficon-breakfast:before {
+    content:"\F15C"
+}
+.ficon-breezy:before {
+    content:"\F15D"
+}
+.ficon-broken-clouds:before {
+    content:"\F15E"
+}
+.ficon-budget:before {
+    content:"\F15F"
+}
+.ficon-bullet:before {
+    content:"\F160"
+}
+.ficon-bungalow:before {
+    content:"\F161"
+}
+.ficon-bunk-bed:before {
+    content:"\F162"
+}
+.ficon-bus-and-rail-stations:before {
+    content:"\F163"
+}
+.ficon-bus-station:before {
+    content:"\F164"
+}
+.ficon-business-center:before {
+    content:"\F165"
+}
+.ficon-business-facilities:before {
+    content:"\F166"
+}
+.ficon-business-hover:before {
+    content:"\F167"
+}
+.ficon-business:before {
+    content:"\F168"
+}
+.ficon-buzzer-wireless-intercom:before {
+    content:"\F169"
+}
+.ficon-c-coupon:before {
+    content:"\F16A"
+}
+.ficon-cable-car-station:before {
+    content:"\F16B"
+}
+.ficon-calendar-onmap:before {
+    content:"\F16C"
+}
+.ficon-callcenter-24hour:before {
+    content:"\F16D"
+}
+.ficon-callcenter-line:before {
+    content:"\F16E"
+}
+.ficon-callcenter:before {
+    content:"\F16F"
+}
+.ficon-camera-hover:before {
+    content:"\F170"
+}
+.ficon-cancel-booking:before {
+    content:"\F171"
+}
+.ficon-cancellation-policy-non-refund-special-condition:before {
+    content:"\F172"
+}
+.ficon-canoe:before {
+    content:"\F173"
+}
+.ficon-capsule:before {
+    content:"\F174"
+}
+.ficon-car-hire:before {
+    content:"\F175"
+}
+.ficon-car-park-charges:before {
+    content:"\F176"
+}
+.ficon-car-park-free-charge:before {
+    content:"\F177"
+}
+.ficon-car-park-nearby:before {
+    content:"\F178"
+}
+.ficon-car-park-onsite:before {
+    content:"\F179"
+}
+.ficon-car-park:before {
+    content:"\F17A"
+}
+.ficon-car-power-charging-station:before {
+    content:"\F17B"
+}
+.ficon-carbon-monoxide-detector:before {
+    content:"\F17C"
+}
+.ficon-carpeting:before {
+    content:"\F17D"
+}
+.ficon-carrouselarrow-left:before {
+    content:"\F17E"
+}
+.ficon-carrouselarrow-right:before {
+    content:"\F17F"
+}
+.ficon-cash-a-line-new:before {
+    content:"\F180"
+}
+.ficon-cash-a-solid-new:before {
+    content:"\F181"
+}
+.ficon-cash-circle-h:before {
+    content:"\F182"
+}
+.ficon-cash-circle-s:before {
+    content:"\F183"
+}
+.ficon-cash-h:before {
+    content:"\F184"
+}
+.ficon-cash-line-circle-h:before {
+    content:"\F185"
+}
+.ficon-cash-line-circle-s:before {
+    content:"\F186"
+}
+.ficon-cash-line-h:before {
+    content:"\F187"
+}
+.ficon-cash-line-new:before {
+    content:"\F188"
+}
+.ficon-cash-line-s:before {
+    content:"\F189"
+}
+.ficon-cash-s:before {
+    content:"\F18A"
+}
+.ficon-cash-solid-new:before {
+    content:"\F18B"
+}
+.ficon-cash:before {
+    content:"\F18C"
+}
+.ficon-casino:before {
+    content:"\F18D"
+}
+.ficon-cats-allowed:before {
+    content:"\F18E"
+}
+.ficon-chapel:before {
+    content:"\F18F"
+}
+.ficon-chat:before {
+    content:"\F190"
+}
+.ficon-check-box:before {
+    content:"\F191"
+}
+.ficon-check-circle-o:before {
+    content:"\F192"
+}
+.ficon-check-circle:before {
+    content:"\F193"
+}
+.ficon-check-in:before {
+    content:"\F194"
+}
+.ficon-check-out:before {
+    content:"\F195"
+}
+.ficon-check-valid-state:before {
+    content:"\F196"
+}
+.ficon-check:before {
+    content:"\F197"
+}
+.ficon-checkbox-icon:before {
+    content:"\F198"
+}
+.ficon-checkin-date:before {
+    content:"\F199"
+}
+.ficon-checkin-hover-date:before {
+    content:"\F19A"
+}
+.ficon-checkout-date:before {
+    content:"\F19B"
+}
+.ficon-checkout-hover-date:before {
+    content:"\F19C"
+}
+.ficon-child-icon:before {
+    content:"\F19D"
+}
+.ficon-child-line:before {
+    content:"\F19E"
+}
+.ficon-child:before {
+    content:"\F19F"
+}
+.ficon-children-high-chair:before {
+    content:"\F1A0"
+}
+.ficon-children-one:before {
+    content:"\F1A1"
+}
+.ficon-children-playground:before {
+    content:"\F1A2"
+}
+.ficon-china-event:before {
+    content:"\F1A3"
+}
+.ficon-china-only:before {
+    content:"\F1A4"
+}
+.ficon-chinese-friendly:before {
+    content:"\F1A5"
+}
+.ficon-circle-05:before {
+    content:"\F1A6"
+}
+.ficon-circle-1:before {
+    content:"\F1A7"
+}
+.ficon-circle-15:before {
+    content:"\F1A8"
+}
+.ficon-circle-2:before {
+    content:"\F1A9"
+}
+.ficon-circle-25:before {
+    content:"\F1AA"
+}
+.ficon-circle-3:before {
+    content:"\F1AB"
+}
+.ficon-circle-35:before {
+    content:"\F1AC"
+}
+.ficon-circle-4:before {
+    content:"\F1AD"
+}
+.ficon-circle-45:before {
+    content:"\F1AE"
+}
+.ficon-circle-5:before {
+    content:"\F1AF"
+}
+.ficon-circle-arrow-left:before {
+    content:"\F1B0"
+}
+.ficon-circle-arrow-right:before {
+    content:"\F1B1"
+}
+.ficon-circle-bus:before {
+    content:"\F1B2"
+}
+.ficon-circle-home:before {
+    content:"\F1B3"
+}
+.ficon-circle-pin:before {
+    content:"\F1B4"
+}
+.ficon-circle-plane:before {
+    content:"\F1B5"
+}
+.ficon-circle-star:before {
+    content:"\F1B6"
+}
+.ficon-cities:before {
+    content:"\F1B7"
+}
+.ficon-city-buses:before {
+    content:"\F1B8"
+}
+.ficon-city-view:before {
+    content:"\F1B9"
+}
+.ficon-cleaning-products:before {
+    content:"\F1BA"
+}
+.ficon-clear-mark:before {
+    content:"\F1BB"
+}
+.ficon-clear-sky-b:before {
+    content:"\F1BC"
+}
+.ficon-clear-sky:before {
+    content:"\F1BD"
+}
+.ficon-clear:before {
+    content:"\F1BE"
+}
+.ficon-close-popup-solid:before {
+    content:"\F1BF"
+}
+.ficon-close-popup:before {
+    content:"\F1C0"
+}
+.ficon-closest-bar:before {
+    content:"\F1C1"
+}
+.ficon-closest-market:before {
+    content:"\F1C2"
+}
+.ficon-closet:before {
+    content:"\F1C3"
+}
+.ficon-clothes-dryer-pay:before {
+    content:"\F1C4"
+}
+.ficon-clothes-rack:before {
+    content:"\F1C5"
+}
+.ficon-clothes-washer-free:before {
+    content:"\F1C6"
+}
+.ficon-cloudy:before {
+    content:"\F1C7"
+}
+.ficon-club-lounge-access:before {
+    content:"\F1C8"
+}
+.ficon-coffee-shop:before {
+    content:"\F1C9"
+}
+.ficon-coffee-tea-maker:before {
+    content:"\F1CA"
+}
+.ficon-complimentary-bottled-water:before {
+    content:"\F1CB"
+}
+.ficon-complimentary-instant-coffee:before {
+    content:"\F1CC"
+}
+.ficon-complimentary-tea:before {
+    content:"\F1CD"
+}
+.ficon-compset-comparison:before {
+    content:"\F1CE"
+}
+.ficon-concierge:before {
+    content:"\F1CF"
+}
+.ficon-confirmation-instant:before {
+    content:"\F1D0"
+}
+.ficon-confirmation-later:before {
+    content:"\F1D1"
+}
+.ficon-confirmation-solid:before {
+    content:"\F1D2"
+}
+.ficon-confirmation:before {
+    content:"\F1D3"
+}
+.ficon-continental-breakfast:before {
+    content:"\F1D4"
+}
+.ficon-control-close-circle:before {
+    content:"\F1D5"
+}
+.ficon-control-collapse:before {
+    content:"\F1D6"
+}
+.ficon-control-expand:before {
+    content:"\F1D7"
+}
+.ficon-cookie:before {
+    content:"\F1D8"
+}
+.ficon-couple-hover:before {
+    content:"\F1D9"
+}
+.ficon-couple:before {
+    content:"\F1DA"
+}
+.ficon-coupon-card-no-circle:before {
+    content:"\F1DB"
+}
+.ficon-coupon-card-solid:before {
+    content:"\F1DC"
+}
+.ficon-coupon-card:before {
+    content:"\F1DD"
+}
+.ficon-coupon-promo:before {
+    content:"\F1DE"
+}
+.ficon-coupon:before {
+    content:"\F1DF"
+}
+.ficon-credit-card-bf:before {
+    content:"\F1E0"
+}
+.ficon-credit-card-required:before {
+    content:"\F1E1"
+}
+.ficon-credit-card:before {
+    content:"\F1E2"
+}
+.ficon-culture:before {
+    content:"\F1E3"
+}
+.ficon-currency-exchange:before {
+    content:"\F1E4"
+}
+.ficon-daily-housekeeping:before {
+    content:"\F1E5"
+}
+.ficon-daily-newspaper:before {
+    content:"\F1E6"
+}
+.ficon-dart-board:before {
+    content:"\F1E7"
+}
+.ficon-dashboard:before {
+    content:"\F1E8"
+}
+.ficon-data-at-your-fingertips:before {
+    content:"\F1E9"
+}
+.ficon-deal-gift-card:before {
+    content:"\F1EA"
+}
+.ficon-deal-insider:before {
+    content:"\F1EB"
+}
+.ficon-default-feedback:before {
+    content:"\F1EC"
+}
+.ficon-desk:before {
+    content:"\F1ED"
+}
+.ficon-diners-clubs-card:before {
+    content:"\F1EE"
+}
+.ficon-dinner:before {
+    content:"\F1EF"
+}
+.ficon-discount:before {
+    content:"\F1F0"
+}
+.ficon-discover-card:before {
+    content:"\F1F1"
+}
+.ficon-dishwasher:before {
+    content:"\F1F2"
+}
+.ficon-distance-from-city-center:before {
+    content:"\F1F3"
+}
+.ficon-distance-to-airport:before {
+    content:"\F1F4"
+}
+.ficon-diving:before {
+    content:"\F1F5"
+}
+.ficon-document:before {
+    content:"\F1F6"
+}
+.ficon-dog-allowed:before {
+    content:"\F1F7"
+}
+.ficon-domestic-rates:before {
+    content:"\F1F8"
+}
+.ficon-dot-seperater:before {
+    content:"\F1F9"
+}
+.ficon-double-bed:before {
+    content:"\F1FA"
+}
+.ficon-double-super-king-queen:before {
+    content:"\F1FB"
+}
+.ficon-download-apps:before {
+    content:"\F1FC"
+}
+.ficon-download:before {
+    content:"\F1FD"
+}
+.ficon-dressing-room:before {
+    content:"\F1FE"
+}
+.ficon-drinks:before {
+    content:"\F1FF"
+}
+.ficon-drizzle:before {
+    content:"\F200"
+}
+.ficon-drug-stores:before {
+    content:"\F201"
+}
+.ficon-dryer:before {
+    content:"\F202"
+}
+.ficon-dvd-cd-player:before {
+    content:"\F203"
+}
+.ficon-dynamic-banner:before {
+    content:"\F204"
+}
+.ficon-early-bird-deal-solid:before {
+    content:"\F205"
+}
+.ficon-early-bird-deal:before {
+    content:"\F206"
+}
+.ficon-early-check-in:before {
+    content:"\F207"
+}
+.ficon-easy-integration:before {
+    content:"\F208"
+}
+.ficon-edge-arrow-left:before {
+    content:"\F209"
+}
+.ficon-edge-arrow-right:before {
+    content:"\F20A"
+}
+.ficon-edit:before {
+    content:"\F20B"
+}
+.ficon-electric-blanket:before {
+    content:"\F20C"
+}
+.ficon-elevator:before {
+    content:"\F20D"
+}
+.ficon-email-envelope:before {
+    content:"\F20E"
+}
+.ficon-emo-dislike-ani1:before {
+    content:"\F20F"
+}
+.ficon-emo-dislike-ani2:before {
+    content:"\F210"
+}
+.ficon-emo-dislike-ani3:before {
+    content:"\F211"
+}
+.ficon-emo-dislike-click:before {
+    content:"\F212"
+}
+.ficon-emo-dont-care-ani1:before {
+    content:"\F213"
+}
+.ficon-emo-dont-care-ani2:before {
+    content:"\F214"
+}
+.ficon-emo-dont-care-ani3:before {
+    content:"\F215"
+}
+.ficon-emo-dont-care-click:before {
+    content:"\F216"
+}
+.ficon-emo-great-ani1:before {
+    content:"\F217"
+}
+.ficon-emo-great-ani2:before {
+    content:"\F218"
+}
+.ficon-emo-great-ani3:before {
+    content:"\F219"
+}
+.ficon-emo-great-click:before {
+    content:"\F21A"
+}
+.ficon-emo-nice-ani1:before {
+    content:"\F21B"
+}
+.ficon-emo-nice-ani2:before {
+    content:"\F21C"
+}
+.ficon-emo-nice-ani3:before {
+    content:"\F21D"
+}
+.ficon-emo-nice-click:before {
+    content:"\F21E"
+}
+.ficon-emo-sad-ani1:before {
+    content:"\F21F"
+}
+.ficon-emo-sad-ani2:before {
+    content:"\F220"
+}
+.ficon-emo-sad-ani3:before {
+    content:"\F221"
+}
+.ficon-emo-sad-click:before {
+    content:"\F222"
+}
+.ficon-entire-place:before {
+    content:"\F223"
+}
+.ficon-essentials:before {
+    content:"\F224"
+}
+.ficon-everybody-fits:before {
+    content:"\F225"
+}
+.ficon-exclusive-sale:before {
+    content:"\F226"
+}
+.ficon-executive-floor:before {
+    content:"\F227"
+}
+.ficon-executive-lounge-access:before {
+    content:"\F228"
+}
+.ficon-export-calendar:before {
+    content:"\F229"
+}
+.ficon-express-check-in-check-out:before {
+    content:"\F22A"
+}
+.ficon-exterior:before {
+    content:"\F22B"
+}
+.ficon-extra-bed:before {
+    content:"\F22C"
+}
+.ficon-extra-long-beds:before {
+    content:"\F22D"
+}
+.ficon-facebook-logo:before {
+    content:"\F22E"
+}
+.ficon-facilities-for-disabled-guests:before {
+    content:"\F22F"
+}
+.ficon-facilities-rich:before {
+    content:"\F230"
+}
+.ficon-failed-o:before {
+    content:"\F231"
+}
+.ficon-failed:before {
+    content:"\F232"
+}
+.ficon-fair-mostly-clear:before {
+    content:"\F233"
+}
+.ficon-fair-mostly-sunny:before {
+    content:"\F234"
+}
+.ficon-family-friendly:before {
+    content:"\F235"
+}
+.ficon-family-fun:before {
+    content:"\F236"
+}
+.ficon-family-line:before {
+    content:"\F237"
+}
+.ficon-family-room:before {
+    content:"\F238"
+}
+.ficon-family-special-deal:before {
+    content:"\F239"
+}
+.ficon-family-with-small-kids-hover:before {
+    content:"\F23A"
+}
+.ficon-family-with-teens-hover:before {
+    content:"\F23B"
+}
+.ficon-family-with-teens:before {
+    content:"\F23C"
+}
+.ficon-fan:before {
+    content:"\F23D"
+}
+.ficon-faq:before {
+    content:"\F23E"
+}
+.ficon-favorite-filled:before {
+    content:"\F23F"
+}
+.ficon-favorite:before {
+    content:"\F240"
+}
+.ficon-fax-machine:before {
+    content:"\F241"
+}
+.ficon-fax-or-photo:before {
+    content:"\F242"
+}
+.ficon-feedback:before {
+    content:"\F243"
+}
+.ficon-female-capsule:before {
+    content:"\F244"
+}
+.ficon-few-clouds:before {
+    content:"\F245"
+}
+.ficon-filter-icon:before {
+    content:"\F246"
+}
+.ficon-filter-line:before {
+    content:"\F247"
+}
+.ficon-fire-extinguisher:before {
+    content:"\F248"
+}
+.ficon-fire-solid:before {
+    content:"\F249"
+}
+.ficon-fireplace:before {
+    content:"\F24A"
+}
+.ficon-first-aid-kit:before {
+    content:"\F24B"
+}
+.ficon-fishing:before {
+    content:"\F24C"
+}
+.ficon-fitness-center-charge:before {
+    content:"\F24D"
+}
+.ficon-fitness-center:before {
+    content:"\F24E"
+}
+.ficon-fitness-club:before {
+    content:"\F24F"
+}
+.ficon-flash-deal-solid:before {
+    content:"\F250"
+}
+.ficon-flash-deal:before {
+    content:"\F251"
+}
+.ficon-flash-sale:before {
+    content:"\F252"
+}
+.ficon-flight-earn:before {
+    content:"\F253"
+}
+.ficon-flights-airplane:before {
+    content:"\F254"
+}
+.ficon-flights-pin:before {
+    content:"\F255"
+}
+.ficon-foggy:before {
+    content:"\F256"
+}
+.ficon-forgot-pass:before {
+    content:"\F257"
+}
+.ficon-free-bicycle:before {
+    content:"\F258"
+}
+.ficon-free-breakfast:before {
+    content:"\F259"
+}
+.ficon-free-cancellation:before {
+    content:"\F25A"
+}
+.ficon-free-fitness-center:before {
+    content:"\F25B"
+}
+.ficon-free-night-stay-circle:before {
+    content:"\F25C"
+}
+.ficon-free-night-stay-solid:before {
+    content:"\F25D"
+}
+.ficon-free-night-stay:before {
+    content:"\F25E"
+}
+.ficon-free-night:before {
+    content:"\F25F"
+}
+.ficon-free-welcome-drink:before {
+    content:"\F260"
+}
+.ficon-free-wifi-in-all-rooms:before {
+    content:"\F261"
+}
+.ficon-freezing-drizzle:before {
+    content:"\F262"
+}
+.ficon-freezing-rain:before {
+    content:"\F263"
+}
+.ficon-frequent-traveler:before {
+    content:"\F264"
+}
+.ficon-fresh-newly-built-property:before {
+    content:"\F265"
+}
+.ficon-frigid-ice-crystals:before {
+    content:"\F266"
+}
+.ficon-g-giftcard:before {
+    content:"\F267"
+}
+.ficon-garden:before {
+    content:"\F268"
+}
+.ficon-gca-wreath-left:before {
+    content:"\F269"
+}
+.ficon-gca-wreath-right:before {
+    content:"\F26A"
+}
+.ficon-get-extra-space:before {
+    content:"\F26B"
+}
+.ficon-gift-card:before {
+    content:"\F26C"
+}
+.ficon-gift-souvenir-shop:before {
+    content:"\F26D"
+}
+.ficon-giftcard-instant:before {
+    content:"\F26E"
+}
+.ficon-giftcard:before {
+    content:"\F26F"
+}
+.ficon-give-us-feedback:before {
+    content:"\F270"
+}
+.ficon-global:before {
+    content:"\F271"
+}
+.ficon-golf-course-on-site:before {
+    content:"\F272"
+}
+.ficon-golf-course-within-3k:before {
+    content:"\F273"
+}
+.ficon-grocery-deliveries:before {
+    content:"\F274"
+}
+.ficon-ground-floor:before {
+    content:"\F275"
+}
+.ficon-group-travelers-hover:before {
+    content:"\F276"
+}
+.ficon-group-travelers:before {
+    content:"\F277"
+}
+.ficon-guest-house:before {
+    content:"\F278"
+}
+.ficon-gym:before {
+    content:"\F279"
+}
+.ficon-hail:before {
+    content:"\F27A"
+}
+.ficon-hair-dryer:before {
+    content:"\F27B"
+}
+.ficon-halal-restaurant-b:before {
+    content:"\F27C"
+}
+.ficon-halal-restaurant:before {
+    content:"\F27D"
+}
+.ficon-half-full-board:before {
+    content:"\F27E"
+}
+.ficon-hamburger-dote:before {
+    content:"\F27F"
+}
+.ficon-hamburger-menu:before {
+    content:"\F280"
+}
+.ficon-hangers:before {
+    content:"\F281"
+}
+.ficon-haze-windy:before {
+    content:"\F282"
+}
+.ficon-heart-of-the-city:before {
+    content:"\F283"
+}
+.ficon-heating:before {
+    content:"\F284"
+}
+.ficon-heavy-rain:before {
+    content:"\F285"
+}
+.ficon-heavy-snow:before {
+    content:"\F286"
+}
+.ficon-high-floor:before {
+    content:"\F287"
+}
+.ficon-high-to-low:before {
+    content:"\F288"
+}
+.ficon-hiking-trails:before {
+    content:"\F289"
+}
+.ficon-holiday-house:before {
+    content:"\F28A"
+}
+.ficon-homestay:before {
+    content:"\F28B"
+}
+.ficon-horse-riding:before {
+    content:"\F28C"
+}
+.ficon-hospitals-clinics:before {
+    content:"\F28D"
+}
+.ficon-hot-spring-access:before {
+    content:"\F28E"
+}
+.ficon-hot-spring-bath:before {
+    content:"\F28F"
+}
+.ficon-hot-tub:before {
+    content:"\F290"
+}
+.ficon-hot:before {
+    content:"\F291"
+}
+.ficon-hotel-benefit:before {
+    content:"\F292"
+}
+.ficon-hotel-book-last:before {
+    content:"\F293"
+}
+.ficon-hotel-data:before {
+    content:"\F294"
+}
+.ficon-hotel-great-location:before {
+    content:"\F295"
+}
+.ficon-hotel-people-looking:before {
+    content:"\F296"
+}
+.ficon-hotel-star-half:before {
+    content:"\F297"
+}
+.ficon-hotel-star:before {
+    content:"\F298"
+}
+.ficon-hotel-wifi:before {
+    content:"\F299"
+}
+.ficon-hotel:before {
+    content:"\F29A"
+}
+.ficon-hover-details:before {
+    content:"\F29B"
+}
+.ficon-human-large:before {
+    content:"\F29C"
+}
+.ficon-humidifier:before {
+    content:"\F29D"
+}
+.ficon-hurricane:before {
+    content:"\F29E"
+}
+.ficon-ic-filter-bestseller:before {
+    content:"\F29F"
+}
+.ficon-icon-arrow-down:before {
+    content:"\F2A0"
+}
+.ficon-icon-arrow-up:before {
+    content:"\F2A1"
+}
+.ficon-iftar:before {
+    content:"\F2A2"
+}
+.ficon-import-calendar:before {
+    content:"\F2A3"
+}
+.ficon-in-room-safe:before {
+    content:"\F2A4"
+}
+.ficon-in-room-tablet:before {
+    content:"\F2A5"
+}
+.ficon-in-room-video-games:before {
+    content:"\F2A6"
+}
+.ficon-indoor-poor:before {
+    content:"\F2A7"
+}
+.ficon-infant:before {
+    content:"\F2A8"
+}
+.ficon-infirmary:before {
+    content:"\F2A9"
+}
+.ficon-info-alert:before {
+    content:"\F2AA"
+}
+.ficon-info-with-circle:before {
+    content:"\F2AB"
+}
+.ficon-information:before {
+    content:"\F2AC"
+}
+.ficon-inhouse-movies:before {
+    content:"\F2AD"
+}
+.ficon-insider-deal-desktop:before {
+    content:"\F2AE"
+}
+.ficon-installment-graph:before {
+    content:"\F2AF"
+}
+.ficon-installment-line:before {
+    content:"\F2B0"
+}
+.ficon-installment-solid:before {
+    content:"\F2B1"
+}
+.ficon-instant-booking:before {
+    content:"\F2B2"
+}
+.ficon-instant:before {
+    content:"\F2B3"
+}
+.ficon-interconnecting-room-available:before {
+    content:"\F2B4"
+}
+.ficon-invalided-file:before {
+    content:"\F2B5"
+}
+.ficon-ipod-docking-station:before {
+    content:"\F2B6"
+}
+.ficon-islamic-prayer-room:before {
+    content:"\F2B7"
+}
+.ficon-isolated-thunderstorms:before {
+    content:"\F2B8"
+}
+.ficon-jacuzzi-bathtub:before {
+    content:"\F2B9"
+}
+.ficon-japanese-futon:before {
+    content:"\F2BA"
+}
+.ficon-jcb:before {
+    content:"\F2BB"
+}
+.ficon-karaoke:before {
+    content:"\F2BC"
+}
+.ficon-keyless-access:before {
+    content:"\F2BD"
+}
+.ficon-kids-club:before {
+    content:"\F2BE"
+}
+.ficon-king-bed:before {
+    content:"\F2BF"
+}
+.ficon-kitchen-new:before {
+    content:"\F2C0"
+}
+.ficon-kitchen:before {
+    content:"\F2C1"
+}
+.ficon-kitchenette:before {
+    content:"\F2C2"
+}
+.ficon-kitchenware:before {
+    content:"\F2C3"
+}
+.ficon-kosher-restaurant:before {
+    content:"\F2C4"
+}
+.ficon-lake-view:before {
+    content:"\F2C5"
+}
+.ficon-laptop-friendly-workspace:before {
+    content:"\F2C6"
+}
+.ficon-laptop-safe-box:before {
+    content:"\F2C7"
+}
+.ficon-last-minute-deal-2:before {
+    content:"\F2C8"
+}
+.ficon-last-minute-deal-solid:before {
+    content:"\F2C9"
+}
+.ficon-last-minute-deal:before {
+    content:"\F2CA"
+}
+.ficon-last-viewed:before {
+    content:"\F2CB"
+}
+.ficon-late-check-out:before {
+    content:"\F2CC"
+}
+.ficon-laundromat:before {
+    content:"\F2CD"
+}
+.ficon-laundry-service:before {
+    content:"\F2CE"
+}
+.ficon-length-of-stay:before {
+    content:"\F2CF"
+}
+.ficon-library:before {
+    content:"\F2D0"
+}
+.ficon-light-rain:before {
+    content:"\F2D1"
+}
+.ficon-light-snow:before {
+    content:"\F2D2"
+}
+.ficon-lightbox:before {
+    content:"\F2D3"
+}
+.ficon-limit-deal:before {
+    content:"\F2D4"
+}
+.ficon-limited-access-floor:before {
+    content:"\F2D5"
+}
+.ficon-line-close:before {
+    content:"\F2D6"
+}
+.ficon-line-empty-circle:before {
+    content:"\F2D7"
+}
+.ficon-linens:before {
+    content:"\F2D8"
+}
+.ficon-link-out-bold:before {
+    content:"\F2D9"
+}
+.ficon-link-out:before {
+    content:"\F2DA"
+}
+.ficon-lobby:before {
+    content:"\F2DB"
+}
+.ficon-lockers:before {
+    content:"\F2DC"
+}
+.ficon-logo-ah:before {
+    content:"\F2DD"
+}
+.ficon-logo-wechat:before {
+    content:"\F2DE"
+}
+.ficon-long-stay-deal:before {
+    content:"\F2DF"
+}
+.ficon-long-stays-promotion:before {
+    content:"\F2E0"
+}
+.ficon-long-stays:before {
+    content:"\F2E1"
+}
+.ficon-low-floor:before {
+    content:"\F2E2"
+}
+.ficon-low-to-high:before {
+    content:"\F2E3"
+}
+.ficon-luggage-storage:before {
+    content:"\F2E4"
+}
+.ficon-luggage:before {
+    content:"\F2E5"
+}
+.ficon-lunch:before {
+    content:"\F2E6"
+}
+.ficon-luxury:before {
+    content:"\F2E7"
+}
+.ficon-male-capsule-b:before {
+    content:"\F2E8"
+}
+.ficon-male-capsule:before {
+    content:"\F2E9"
+}
+.ficon-mandarin:before {
+    content:"\F2EA"
+}
+.ficon-map-airport:before {
+    content:"\F2EB"
+}
+.ficon-map-attraction:before {
+    content:"\F2EC"
+}
+.ficon-map-city:before {
+    content:"\F2ED"
+}
+.ficon-map-night:before {
+    content:"\F2EE"
+}
+.ficon-map-pin-fat:before {
+    content:"\F2EF"
+}
+.ficon-map-room:before {
+    content:"\F2F0"
+}
+.ficon-map-transportation:before {
+    content:"\F2F1"
+}
+.ficon-map-view:before {
+    content:"\F2F2"
+}
+.ficon-map-entry:before {
+    content:"\F2F3"
+}
+.ficon-massage:before {
+    content:"\F2F4"
+}
+.ficon-mastercard:before {
+    content:"\F2F5"
+}
+.ficon-max-occupancy-plus:before {
+    content:"\F2F6"
+}
+.ficon-max-occupancy:before {
+    content:"\F2F7"
+}
+.ficon-meeting-banquet:before {
+    content:"\F2F8"
+}
+.ficon-meeting-facilities:before {
+    content:"\F2F9"
+}
+.ficon-menu-about:before {
+    content:"\F2FA"
+}
+.ficon-menu-account-hover:before {
+    content:"\F2FB"
+}
+.ficon-menu-account:before {
+    content:"\F2FC"
+}
+.ficon-menu-bookings:before {
+    content:"\F2FD"
+}
+.ficon-menu-calendar-hover:before {
+    content:"\F2FE"
+}
+.ficon-menu-calendar:before {
+    content:"\F2FF"
+}
+.ficon-menu-contact-us:before {
+    content:"\F300"
+}
+.ficon-menu-favorite:before {
+    content:"\F301"
+}
+.ficon-menu-inbox-hover:before {
+    content:"\F302"
+}
+.ficon-menu-inbox:before {
+    content:"\F303"
+}
+.ficon-menu-listings-hover:before {
+    content:"\F304"
+}
+.ficon-menu-listings:before {
+    content:"\F305"
+}
+.ficon-menu-overviews-hover:before {
+    content:"\F306"
+}
+.ficon-menu-overviews:before {
+    content:"\F307"
+}
+.ficon-menu-price-display:before {
+    content:"\F308"
+}
+.ficon-menu-reservations-hover:before {
+    content:"\F309"
+}
+.ficon-menu-reservations:before {
+    content:"\F30A"
+}
+.ficon-menu-reviews:before {
+    content:"\F30B"
+}
+.ficon-menu-today-deals:before {
+    content:"\F30C"
+}
+.ficon-message-left:before {
+    content:"\F30D"
+}
+.ficon-message-right:before {
+    content:"\F30E"
+}
+.ficon-metro-subway-station:before {
+    content:"\F30F"
+}
+.ficon-microwave:before {
+    content:"\F310"
+}
+.ficon-mini-bar:before {
+    content:"\F311"
+}
+.ficon-minibar-b:before {
+    content:"\F312"
+}
+.ficon-minus-thin:before {
+    content:"\F313"
+}
+.ficon-minus-with-circle:before {
+    content:"\F314"
+}
+.ficon-mirror:before {
+    content:"\F315"
+}
+.ficon-mist:before {
+    content:"\F316"
+}
+.ficon-mixed-rain-hail:before {
+    content:"\F317"
+}
+.ficon-mmb-account:before {
+    content:"\F318"
+}
+.ficon-mmb-booking:before {
+    content:"\F319"
+}
+.ficon-mmb-g-giftcard:before {
+    content:"\F31A"
+}
+.ficon-mmb-gift-cards:before {
+    content:"\F31B"
+}
+.ficon-mmb-inbox:before {
+    content:"\F31C"
+}
+.ficon-mmb-my-booking:before {
+    content:"\F31D"
+}
+.ficon-mmb-my-rewards:before {
+    content:"\F31E"
+}
+.ficon-mmb-payment-methods:before {
+    content:"\F31F"
+}
+.ficon-mmb-pointsmax:before {
+    content:"\F320"
+}
+.ficon-mmb-refer-a-friend:before {
+    content:"\F321"
+}
+.ficon-mmb-reviews-b:before {
+    content:"\F322"
+}
+.ficon-mmb-reviews:before {
+    content:"\F323"
+}
+.ficon-more-bedrooms:before {
+    content:"\F324"
+}
+.ficon-more-images:before {
+    content:"\F325"
+}
+.ficon-more-money:before {
+    content:"\F326"
+}
+.ficon-mosquitonet:before {
+    content:"\F327"
+}
+.ficon-most-popular-destinations:before {
+    content:"\F328"
+}
+.ficon-mostly-cloudy-day:before {
+    content:"\F329"
+}
+.ficon-mostly-cloudy-night:before {
+    content:"\F32A"
+}
+.ficon-motorbike:before {
+    content:"\F32B"
+}
+.ficon-mountain-view:before {
+    content:"\F32C"
+}
+.ficon-mse-icon:before {
+    content:"\F32D"
+}
+.ficon-mse-price-icon:before {
+    content:"\F32E"
+}
+.ficon-museum-arts:before {
+    content:"\F32F"
+}
+.ficon-nav-back:before {
+    content:"\F330"
+}
+.ficon-nav-down-bold:before {
+    content:"\F331"
+}
+.ficon-nav-down-thin:before {
+    content:"\F332"
+}
+.ficon-nav-left-bold:before {
+    content:"\F333"
+}
+.ficon-nav-left-thin:before {
+    content:"\F334"
+}
+.ficon-nav-right-bold:before {
+    content:"\F335"
+}
+.ficon-nav-right-thin:before {
+    content:"\F336"
+}
+.ficon-nav-up-bold:before {
+    content:"\F337"
+}
+.ficon-nav-up-thin:before {
+    content:"\F338"
+}
+.ficon-negative:before {
+    content:"\F339"
+}
+.ficon-neighborhood-line:before {
+    content:"\F33A"
+}
+.ficon-neighborhood:before {
+    content:"\F33B"
+}
+.ficon-new-property:before {
+    content:"\F33C"
+}
+.ficon-nha-icon:before {
+    content:"\F33D"
+}
+.ficon-nha-logo:before {
+    content:"\F33E"
+}
+.ficon-nightclub:before {
+    content:"\F33F"
+}
+.ficon-nightlife:before {
+    content:"\F340"
+}
+.ficon-no-breakfast-a:before {
+    content:"\F341"
+}
+.ficon-no-breakfast-b:before {
+    content:"\F342"
+}
+.ficon-no-cc-fee:before {
+    content:"\F343"
+}
+.ficon-no-cc:before {
+    content:"\F344"
+}
+.ficon-no-children-allowed:before {
+    content:"\F345"
+}
+.ficon-non-smoking-room:before {
+    content:"\F346"
+}
+.ficon-non-smoking:before {
+    content:"\F347"
+}
+.ficon-not-available:before {
+    content:"\F348"
+}
+.ficon-noti-balloon-answer:before {
+    content:"\F349"
+}
+.ficon-noti-balloon-question:before {
+    content:"\F34A"
+}
+.ficon-noti-check-mark-rounded-inner:before {
+    content:"\F34B"
+}
+.ficon-noti-check-mark-sharp:before {
+    content:"\F34C"
+}
+.ficon-notice-info:before {
+    content:"\F34D"
+}
+.ficon-number-of-floors:before {
+    content:"\F34E"
+}
+.ficon-number-of-rooms:before {
+    content:"\F34F"
+}
+.ficon-number-reviews:before {
+    content:"\F350"
+}
+.ficon-number1:before {
+    content:"\F351"
+}
+.ficon-occupancy:before {
+    content:"\F352"
+}
+.ficon-ocean-view:before {
+    content:"\F353"
+}
+.ficon-open-a-new-tab:before {
+    content:"\F354"
+}
+.ficon-outdoor-pool:before {
+    content:"\F355"
+}
+.ficon-paperclip:before {
+    content:"\F356"
+}
+.ficon-partly-cloudy-day:before {
+    content:"\F357"
+}
+.ficon-partly-cloudy-night:before {
+    content:"\F358"
+}
+.ficon-password:before {
+    content:"\F359"
+}
+.ficon-pay-at-hotel-in-cash:before {
+    content:"\F35A"
+}
+.ficon-pay-at-the-place:before {
+    content:"\F35B"
+}
+.ficon-pay-on-checkin:before {
+    content:"\F35C"
+}
+.ficon-payment-option-no-credit-card:before {
+    content:"\F35D"
+}
+.ficon-pending-bold:before {
+    content:"\F35E"
+}
+.ficon-pending:before {
+    content:"\F35F"
+}
+.ficon-personal-cheque:before {
+    content:"\F360"
+}
+.ficon-personal-details:before {
+    content:"\F361"
+}
+.ficon-pet-allowed-room:before {
+    content:"\F362"
+}
+.ficon-pets-allowed:before {
+    content:"\F363"
+}
+.ficon-photo-uploader:before {
+    content:"\F364"
+}
+.ficon-photocopying:before {
+    content:"\F365"
+}
+.ficon-pin-airport:before {
+    content:"\F366"
+}
+.ficon-pin-beach:before {
+    content:"\F367"
+}
+.ficon-pin-business:before {
+    content:"\F368"
+}
+.ficon-pin-casino:before {
+    content:"\F369"
+}
+.ficon-pin-culture:before {
+    content:"\F36A"
+}
+.ficon-pin-excellent:before {
+    content:"\F36B"
+}
+.ficon-pin-family-fun:before {
+    content:"\F36C"
+}
+.ficon-pin-heart-of-city-building:before {
+    content:"\F36D"
+}
+.ficon-pin-heart-of-city-mind:before {
+    content:"\F36E"
+}
+.ficon-pin-heart-of-city:before {
+    content:"\F36F"
+}
+.ficon-pin-heart-of-the-city:before {
+    content:"\F370"
+}
+.ficon-pin-mountain-view:before {
+    content:"\F371"
+}
+.ficon-pin-museum-arts:before {
+    content:"\F372"
+}
+.ficon-pin-nightlife:before {
+    content:"\F373"
+}
+.ficon-pin-poi:before {
+    content:"\F374"
+}
+.ficon-pin-religious:before {
+    content:"\F375"
+}
+.ficon-pin-restaurant:before {
+    content:"\F376"
+}
+.ficon-pin-romance:before {
+    content:"\F377"
+}
+.ficon-pin-shopping-markets:before {
+    content:"\F378"
+}
+.ficon-pin-sightseeing:before {
+    content:"\F379"
+}
+.ficon-pin-skiing:before {
+    content:"\F37A"
+}
+.ficon-pin-spas:before {
+    content:"\F37B"
+}
+.ficon-pin-tennis-courts:before {
+    content:"\F37C"
+}
+.ficon-pin-transportation-hub:before {
+    content:"\F37D"
+}
+.ficon-pin:before {
+    content:"\F37E"
+}
+.ficon-pin-star:before {
+    content:"\F37F"
+}
+.ficon-plus-thin:before {
+    content:"\F380"
+}
+.ficon-plus-with-circle:before {
+    content:"\F381"
+}
+.ficon-poi-text-search:before {
+    content:"\F382"
+}
+.ficon-poi:before {
+    content:"\F383"
+}
+.ficon-pointsmax-line-logo:before {
+    content:"\F384"
+}
+.ficon-pointsmax-logo:before {
+    content:"\F385"
+}
+.ficon-pointsmax-placeholder:before {
+    content:"\F386"
+}
+.ficon-pointsmax:before {
+    content:"\F387"
+}
+.ficon-police:before {
+    content:"\F388"
+}
+.ficon-pool-kids:before {
+    content:"\F389"
+}
+.ficon-pool:before {
+    content:"\F38A"
+}
+.ficon-poolside-bar:before {
+    content:"\F38B"
+}
+.ficon-popular-icon:before {
+    content:"\F38C"
+}
+.ficon-portable-wifi-rental:before {
+    content:"\F38D"
+}
+.ficon-positive:before {
+    content:"\F38E"
+}
+.ficon-postal-service:before {
+    content:"\F38F"
+}
+.ficon-prepayment:before {
+    content:"\F390"
+}
+.ficon-price-display:before {
+    content:"\F391"
+}
+.ficon-price-drop:before {
+    content:"\F392"
+}
+.ficon-price-messaging:before {
+    content:"\F393"
+}
+.ficon-price-seen-user:before {
+    content:"\F394"
+}
+.ficon-printer:before {
+    content:"\F395"
+}
+.ficon-privacy-policy:before {
+    content:"\F396"
+}
+.ficon-private-bath:before {
+    content:"\F397"
+}
+.ficon-private-beach:before {
+    content:"\F398"
+}
+.ficon-private-entrance:before {
+    content:"\F399"
+}
+.ficon-private-pool:before {
+    content:"\F39A"
+}
+.ficon-profiles:before {
+    content:"\F39B"
+}
+.ficon-promo-code:before {
+    content:"\F39C"
+}
+.ficon-promo-score:before {
+    content:"\F39D"
+}
+.ficon-promoeligible-star:before {
+    content:"\F39E"
+}
+.ficon-promotion-right:before {
+    content:"\F39F"
+}
+.ficon-properties-without-price:before {
+    content:"\F3A0"
+}
+.ficon-properties:before {
+    content:"\F3A1"
+}
+.ficon-property-name:before {
+    content:"\F3A2"
+}
+.ficon-property-owner:before {
+    content:"\F3A3"
+}
+.ficon-property-tooltip:before {
+    content:"\F3A4"
+}
+.ficon-property-upgrades-line:before {
+    content:"\F3A5"
+}
+.ficon-queen-bed:before {
+    content:"\F3A6"
+}
+.ficon-question-mark:before {
+    content:"\F3A7"
+}
+.ficon-questions:before {
+    content:"\F3A8"
+}
+.ficon-rain-sleet:before {
+    content:"\F3A9"
+}
+.ficon-rain-to-snow-showers:before {
+    content:"\F3AA"
+}
+.ficon-rain:before {
+    content:"\F3AB"
+}
+.ficon-ratings:before {
+    content:"\F3AC"
+}
+.ficon-recently:before {
+    content:"\F3AD"
+}
+.ficon-reception:before {
+    content:"\F3AE"
+}
+.ficon-recommendations:before {
+    content:"\F3AF"
+}
+.ficon-refresh-bold:before {
+    content:"\F3B0"
+}
+.ficon-refresh:before {
+    content:"\F3B1"
+}
+.ficon-refrigerator:before {
+    content:"\F3B2"
+}
+.ficon-religious:before {
+    content:"\F3B3"
+}
+.ficon-reporting-property:before {
+    content:"\F3B4"
+}
+.ficon-reporting:before {
+    content:"\F3B5"
+}
+.ficon-residence:before {
+    content:"\F3B6"
+}
+.ficon-resort-property-plan:before {
+    content:"\F3B7"
+}
+.ficon-restaurant-credit:before {
+    content:"\F3B8"
+}
+.ficon-restaurant:before {
+    content:"\F3B9"
+}
+.ficon-review-icon:before {
+    content:"\F3BA"
+}
+.ficon-review-line:before {
+    content:"\F3BB"
+}
+.ficon-review-your-stay:before {
+    content:"\F3BC"
+}
+.ficon-ribbon-card-no-circle:before {
+    content:"\F3BD"
+}
+.ficon-ribbon-card-solid:before {
+    content:"\F3BE"
+}
+.ficon-ribbon-card:before {
+    content:"\F3BF"
+}
+.ficon-right-tick:before {
+    content:"\F3C0"
+}
+.ficon-romance:before {
+    content:"\F3C1"
+}
+.ficon-room-plan:before {
+    content:"\F3C2"
+}
+.ficon-room-promotion-for-flashdeal:before {
+    content:"\F3C3"
+}
+.ficon-room-promotion-for-mobiledeal:before {
+    content:"\F3C4"
+}
+.ficon-room-promotion-for-otherdeal:before {
+    content:"\F3C5"
+}
+.ficon-room-promotion-for-smartdeal:before {
+    content:"\F3C6"
+}
+.ficon-room-promotion-super-savedeal:before {
+    content:"\F3C7"
+}
+.ficon-room-promotion:before {
+    content:"\F3C8"
+}
+.ficon-room-service:before {
+    content:"\F3C9"
+}
+.ficon-room-voltage:before {
+    content:"\F3CA"
+}
+.ficon-safety-deposit-boxes:before {
+    content:"\F3CB"
+}
+.ficon-salon:before {
+    content:"\F3CC"
+}
+.ficon-satellite-cable-channels:before {
+    content:"\F3CD"
+}
+.ficon-satellite-television:before {
+    content:"\F3CE"
+}
+.ficon-sauna:before {
+    content:"\F3CF"
+}
+.ficon-save-to-pdf:before {
+    content:"\F3D0"
+}
+.ficon-scale:before {
+    content:"\F3D1"
+}
+.ficon-scattered-clouds:before {
+    content:"\F3D2"
+}
+.ficon-scattered-flurries:before {
+    content:"\F3D3"
+}
+.ficon-scattered-showers:before {
+    content:"\F3D4"
+}
+.ficon-scattered-snow-showe:before {
+    content:"\F3D5"
+}
+.ficon-scattered-thunderstorms:before {
+    content:"\F3D6"
+}
+.ficon-scissor:before {
+    content:"\F3D7"
+}
+.ficon-search-box:before {
+    content:"\F3D8"
+}
+.ficon-search-calendar:before {
+    content:"\F3D9"
+}
+.ficon-search-icon:before {
+    content:"\F3DA"
+}
+.ficon-seating-area:before {
+    content:"\F3DB"
+}
+.ficon-sec:before {
+    content:"\F3DC"
+}
+.ficon-secure-icon:before {
+    content:"\F3DD"
+}
+.ficon-secure-payment:before {
+    content:"\F3DE"
+}
+.ficon-selected-property:before {
+    content:"\F3DF"
+}
+.ficon-self-parking:before {
+    content:"\F3E0"
+}
+.ficon-semi-double-bed-b:before {
+    content:"\F3E1"
+}
+.ficon-semi-double-bed:before {
+    content:"\F3E2"
+}
+.ficon-send-arrow:before {
+    content:"\F3E3"
+}
+.ficon-separate-dining-area:before {
+    content:"\F3E4"
+}
+.ficon-separate-living-room:before {
+    content:"\F3E5"
+}
+.ficon-separate-shower-and-tub:before {
+    content:"\F3E6"
+}
+.ficon-seriously-multilingual:before {
+    content:"\F3E7"
+}
+.ficon-sewing-kit:before {
+    content:"\F3E8"
+}
+.ficon-shampoo:before {
+    content:"\F3E9"
+}
+.ficon-share:before {
+    content:"\F3EA"
+}
+.ficon-shared-bath:before {
+    content:"\F3EB"
+}
+.ficon-shared-kitchen:before {
+    content:"\F3EC"
+}
+.ficon-shoeshine-kit:before {
+    content:"\F3ED"
+}
+.ficon-shopping-markets:before {
+    content:"\F3EE"
+}
+.ficon-shopping:before {
+    content:"\F3EF"
+}
+.ficon-shops:before {
+    content:"\F3F0"
+}
+.ficon-show-more:before {
+    content:"\F3F1"
+}
+.ficon-shower-and-bathtub:before {
+    content:"\F3F2"
+}
+.ficon-shower-rain:before {
+    content:"\F3F3"
+}
+.ficon-shower:before {
+    content:"\F3F4"
+}
+.ficon-shrine:before {
+    content:"\F3F5"
+}
+.ficon-shuttle-service:before {
+    content:"\F3F6"
+}
+.ficon-sightseeing:before {
+    content:"\F3F7"
+}
+.ficon-single-bed-b:before {
+    content:"\F3F8"
+}
+.ficon-single-bed:before {
+    content:"\F3F9"
+}
+.ficon-size-of-rooms:before {
+    content:"\F3FA"
+}
+.ficon-ski-equipment-rentals:before {
+    content:"\F3FB"
+}
+.ficon-ski-lessons:before {
+    content:"\F3FC"
+}
+.ficon-skiing:before {
+    content:"\F3FD"
+}
+.ficon-sleet:before {
+    content:"\F3FE"
+}
+.ficon-slippers:before {
+    content:"\F3FF"
+}
+.ficon-smoke-detector:before {
+    content:"\F400"
+}
+.ficon-smoke-windy:before {
+    content:"\F401"
+}
+.ficon-smoking-allowed:before {
+    content:"\F402"
+}
+.ficon-smoking-area:before {
+    content:"\F403"
+}
+.ficon-smorking-yes-no:before {
+    content:"\F404"
+}
+.ficon-snorkeling:before {
+    content:"\F405"
+}
+.ficon-snow:before {
+    content:"\F406"
+}
+.ficon-sofa-bed:before {
+    content:"\F407"
+}
+.ficon-sofa:before {
+    content:"\F408"
+}
+.ficon-solarium:before {
+    content:"\F409"
+}
+.ficon-solid-24hour-front-desk:before {
+    content:"\F40A"
+}
+.ficon-solid-24hour-room-service:before {
+    content:"\F40B"
+}
+.ficon-solid-adults-b:before {
+    content:"\F40C"
+}
+.ficon-solid-adults:before {
+    content:"\F40D"
+}
+.ficon-solid-air-conditioning:before {
+    content:"\F40E"
+}
+.ficon-solid-airport-transfer-service:before {
+    content:"\F40F"
+}
+.ficon-solid-airport-transfer:before {
+    content:"\F410"
+}
+.ficon-solid-babies:before {
+    content:"\F411"
+}
+.ficon-solid-bar:before {
+    content:"\F412"
+}
+.ficon-solid-beach:before {
+    content:"\F413"
+}
+.ficon-solid-best-seller:before {
+    content:"\F414"
+}
+.ficon-solid-breakfast:before {
+    content:"\F415"
+}
+.ficon-solid-business-hover:before {
+    content:"\F416"
+}
+.ficon-solid-car-park:before {
+    content:"\F417"
+}
+.ficon-solid-contact-details:before {
+    content:"\F418"
+}
+.ficon-solid-couple-hover:before {
+    content:"\F419"
+}
+.ficon-solid-families-b:before {
+    content:"\F41A"
+}
+.ficon-solid-families:before {
+    content:"\F41B"
+}
+.ficon-solid-family-with-teens:before {
+    content:"\F41C"
+}
+.ficon-solid-fitness:before {
+    content:"\F41D"
+}
+.ficon-solid-flights-airplane:before {
+    content:"\F41E"
+}
+.ficon-solid-flights-destination:before {
+    content:"\F41F"
+}
+.ficon-solid-flights-hotel:before {
+    content:"\F420"
+}
+.ficon-solid-flights-layover-exchange:before {
+    content:"\F421"
+}
+.ficon-solid-flights-stop-layover:before {
+    content:"\F422"
+}
+.ficon-solid-free-cancellation:before {
+    content:"\F423"
+}
+.ficon-solid-free-wi-fi:before {
+    content:"\F424"
+}
+.ficon-solid-garden:before {
+    content:"\F425"
+}
+.ficon-solid-generic-traveler-type:before {
+    content:"\F426"
+}
+.ficon-solid-groups-b:before {
+    content:"\F427"
+}
+.ficon-solid-groups:before {
+    content:"\F428"
+}
+.ficon-solid-hair-dryer:before {
+    content:"\F429"
+}
+.ficon-solid-insider-deal-flag:before {
+    content:"\F42A"
+}
+.ficon-solid-payment-options:before {
+    content:"\F42B"
+}
+.ficon-solid-property-upgrades:before {
+    content:"\F42C"
+}
+.ficon-solid-restaurant:before {
+    content:"\F42D"
+}
+.ficon-solid-room-offers:before {
+    content:"\F42E"
+}
+.ficon-solid-spa:before {
+    content:"\F42F"
+}
+.ficon-solid-special-requests:before {
+    content:"\F430"
+}
+.ficon-solid-swimming-pool:before {
+    content:"\F431"
+}
+.ficon-solid-transportation:before {
+    content:"\F432"
+}
+.ficon-solid-unlock:before {
+    content:"\F433"
+}
+.ficon-solo-hover:before {
+    content:"\F434"
+}
+.ficon-solo:before {
+    content:"\F435"
+}
+.ficon-sort-line:before {
+    content:"\F436"
+}
+.ficon-soundproofing:before {
+    content:"\F437"
+}
+.ficon-spa-credit:before {
+    content:"\F438"
+}
+.ficon-spa-sauna:before {
+    content:"\F439"
+}
+.ficon-spas:before {
+    content:"\F43A"
+}
+.ficon-special-condition:before {
+    content:"\F43B"
+}
+.ficon-spoken-1:before {
+    content:"\F43C"
+}
+.ficon-spoken-10:before {
+    content:"\F43D"
+}
+.ficon-spoken-11:before {
+    content:"\F43E"
+}
+.ficon-spoken-12:before {
+    content:"\F43F"
+}
+.ficon-spoken-13:before {
+    content:"\F440"
+}
+.ficon-spoken-2:before {
+    content:"\F441"
+}
+.ficon-spoken-20:before {
+    content:"\F442"
+}
+.ficon-spoken-22:before {
+    content:"\F443"
+}
+.ficon-spoken-23:before {
+    content:"\F444"
+}
+.ficon-spoken-24:before {
+    content:"\F445"
+}
+.ficon-spoken-25:before {
+    content:"\F446"
+}
+.ficon-spoken-26:before {
+    content:"\F447"
+}
+.ficon-spoken-27:before {
+    content:"\F448"
+}
+.ficon-spoken-28:before {
+    content:"\F449"
+}
+.ficon-spoken-29:before {
+    content:"\F44A"
+}
+.ficon-spoken-3:before {
+    content:"\F44B"
+}
+.ficon-spoken-30:before {
+    content:"\F44C"
+}
+.ficon-spoken-31:before {
+    content:"\F44D"
+}
+.ficon-spoken-32:before {
+    content:"\F44E"
+}
+.ficon-spoken-33:before {
+    content:"\F44F"
+}
+.ficon-spoken-34:before {
+    content:"\F450"
+}
+.ficon-spoken-35:before {
+    content:"\F451"
+}
+.ficon-spoken-36:before {
+    content:"\F452"
+}
+.ficon-spoken-37:before {
+    content:"\F453"
+}
+.ficon-spoken-38:before {
+    content:"\F454"
+}
+.ficon-spoken-39:before {
+    content:"\F455"
+}
+.ficon-spoken-4:before {
+    content:"\F456"
+}
+.ficon-spoken-40:before {
+    content:"\F457"
+}
+.ficon-spoken-43:before {
+    content:"\F458"
+}
+.ficon-spoken-46:before {
+    content:"\F459"
+}
+.ficon-spoken-47:before {
+    content:"\F45A"
+}
+.ficon-spoken-48:before {
+    content:"\F45B"
+}
+.ficon-spoken-49:before {
+    content:"\F45C"
+}
+.ficon-spoken-5:before {
+    content:"\F45D"
+}
+.ficon-spoken-50:before {
+    content:"\F45E"
+}
+.ficon-spoken-6:before {
+    content:"\F45F"
+}
+.ficon-spoken-7:before {
+    content:"\F460"
+}
+.ficon-spoken-8:before {
+    content:"\F461"
+}
+.ficon-spoken-9:before {
+    content:"\F462"
+}
+.ficon-sqm:before {
+    content:"\F463"
+}
+.ficon-squash-courts:before {
+    content:"\F464"
+}
+.ficon-stack-of-square-papers:before {
+    content:"\F465"
+}
+.ficon-star-1:before {
+    content:"\F466"
+}
+.ficon-star-15:before {
+    content:"\F467"
+}
+.ficon-star-2:before {
+    content:"\F468"
+}
+.ficon-star-25:before {
+    content:"\F469"
+}
+.ficon-star-3:before {
+    content:"\F46A"
+}
+.ficon-star-35:before {
+    content:"\F46B"
+}
+.ficon-star-4:before {
+    content:"\F46C"
+}
+.ficon-star-45:before {
+    content:"\F46D"
+}
+.ficon-star-5:before {
+    content:"\F46E"
+}
+.ficon-steamroom:before {
+    content:"\F46F"
+}
+.ficon-strong-storms:before {
+    content:"\F470"
+}
+.ficon-subways:before {
+    content:"\F471"
+}
+.ficon-suitable-for-events:before {
+    content:"\F472"
+}
+.ficon-sunny:before {
+    content:"\F473"
+}
+.ficon-super-king-bed:before {
+    content:"\F474"
+}
+.ficon-surfing-lessons:before {
+    content:"\F475"
+}
+.ficon-swimming-pool-access:before {
+    content:"\F476"
+}
+.ficon-table-tennis:before {
+    content:"\F477"
+}
+.ficon-tamil:before {
+    content:"\F478"
+}
+.ficon-tax-id:before {
+    content:"\F479"
+}
+.ficon-tax-receipt-available:before {
+    content:"\F47A"
+}
+.ficon-taxi-service:before {
+    content:"\F47B"
+}
+.ficon-telephone:before {
+    content:"\F47C"
+}
+.ficon-television-plasma:before {
+    content:"\F47D"
+}
+.ficon-tennis-courts:before {
+    content:"\F47E"
+}
+.ficon-text-area:before {
+    content:"\F47F"
+}
+.ficon-text-links:before {
+    content:"\F480"
+}
+.ficon-theme-park:before {
+    content:"\F481"
+}
+.ficon-thin-arrow-down:before {
+    content:"\F482"
+}
+.ficon-thin-arrow-left:before {
+    content:"\F483"
+}
+.ficon-thin-arrow-right:before {
+    content:"\F484"
+}
+.ficon-thin-circle-arrow-left:before {
+    content:"\F485"
+}
+.ficon-thin-sub-arrow:before {
+    content:"\F486"
+}
+.ficon-thumb-down-line:before {
+    content:"\F487"
+}
+.ficon-thumb-up-line:before {
+    content:"\F488"
+}
+.ficon-thumb-up-solid-map:before {
+    content:"\F489"
+}
+.ficon-thumb-up-solid:before {
+    content:"\F48A"
+}
+.ficon-thumb-up:before {
+    content:"\F48B"
+}
+.ficon-thunder-and-hail:before {
+    content:"\F48C"
+}
+.ficon-thunderstorm:before {
+    content:"\F48D"
+}
+.ficon-ticket-service:before {
+    content:"\F48E"
+}
+.ficon-time-clock:before {
+    content:"\F48F"
+}
+.ficon-time-icon:before {
+    content:"\F490"
+}
+.ficon-time-to-airport:before {
+    content:"\F491"
+}
+.ficon-timer:before {
+    content:"\F492"
+}
+.ficon-toiletries:before {
+    content:"\F493"
+}
+.ficon-tonight-only:before {
+    content:"\F494"
+}
+.ficon-tools:before {
+    content:"\F495"
+}
+.ficon-tooltip-details:before {
+    content:"\F496"
+}
+.ficon-tooltip:before {
+    content:"\F497"
+}
+.ficon-top-floor:before {
+    content:"\F498"
+}
+.ficon-top-rated:before {
+    content:"\F499"
+}
+.ficon-topic-calendar:before {
+    content:"\F49A"
+}
+.ficon-topic-filter:before {
+    content:"\F49B"
+}
+.ficon-topic-hotel-highlight:before {
+    content:"\F49C"
+}
+.ficon-topic-search:before {
+    content:"\F49D"
+}
+.ficon-topic-user:before {
+    content:"\F49E"
+}
+.ficon-tornado:before {
+    content:"\F49F"
+}
+.ficon-total-savings:before {
+    content:"\F4A0"
+}
+.ficon-total-support:before {
+    content:"\F4A1"
+}
+.ficon-tours:before {
+    content:"\F4A2"
+}
+.ficon-towels:before {
+    content:"\F4A3"
+}
+.ficon-train-new-solid:before {
+    content:"\F4A4"
+}
+.ficon-train-new:before {
+    content:"\F4A5"
+}
+.ficon-train-station:before {
+    content:"\F4A6"
+}
+.ficon-tram-station:before {
+    content:"\F4A7"
+}
+.ficon-transfer-both-ways:before {
+    content:"\F4A8"
+}
+.ficon-transfer-one-ways:before {
+    content:"\F4A9"
+}
+.ficon-transportation-hub:before {
+    content:"\F4AA"
+}
+.ficon-transportation:before {
+    content:"\F4AB"
+}
+.ficon-trash-b:before {
+    content:"\F4AC"
+}
+.ficon-trash:before {
+    content:"\F4AD"
+}
+.ficon-travelers:before {
+    content:"\F4AE"
+}
+.ficon-trending-up:before {
+    content:"\F4AF"
+}
+.ficon-triangle-warning:before {
+    content:"\F4B0"
+}
+.ficon-tropical-storm:before {
+    content:"\F4B1"
+}
+.ficon-trouser-press:before {
+    content:"\F4B2"
+}
+.ficon-tv-area:before {
+    content:"\F4B3"
+}
+.ficon-tv-flat-screen:before {
+    content:"\F4B4"
+}
+.ficon-tv:before {
+    content:"\F4B5"
+}
+.ficon-twin-bed:before {
+    content:"\F4B6"
+}
+.ficon-umbrella:before {
+    content:"\F4B7"
+}
+.ficon-unionpay:before {
+    content:"\F4B8"
+}
+.ficon-unlock:before {
+    content:"\F4B9"
+}
+.ficon-upload-your-logo:before {
+    content:"\F4BA"
+}
+.ficon-user-b:before {
+    content:"\F4BB"
+}
+.ficon-user-font-icon:before {
+    content:"\F4BC"
+}
+.ficon-user:before {
+    content:"\F4BD"
+}
+.ficon-valet-parking:before {
+    content:"\F4BE"
+}
+.ficon-vending-machine:before {
+    content:"\F4BF"
+}
+.ficon-verified-checkmark:before {
+    content:"\F4C0"
+}
+.ficon-view-point:before {
+    content:"\F4C1"
+}
+.ficon-views:before {
+    content:"\F4C2"
+}
+.ficon-villa:before {
+    content:"\F4C3"
+}
+.ficon-visa:before {
+    content:"\F4C4"
+}
+.ficon-wake-up-service:before {
+    content:"\F4C5"
+}
+.ficon-walking:before {
+    content:"\F4C6"
+}
+.ficon-want-to-talk:before {
+    content:"\F4C7"
+}
+.ficon-washer:before {
+    content:"\F4C8"
+}
+.ficon-watch:before {
+    content:"\F4C9"
+}
+.ficon-water-park:before {
+    content:"\F4CA"
+}
+.ficon-water-sports-motorized:before {
+    content:"\F4CB"
+}
+.ficon-water-sports-non-motorized:before {
+    content:"\F4CC"
+}
+.ficon-watersports-equipment-rentals:before {
+    content:"\F4CD"
+}
+.ficon-weekend-discount:before {
+    content:"\F4CE"
+}
+.ficon-wheelchair-accessible:before {
+    content:"\F4CF"
+}
+.ficon-wifi-additional-charge:before {
+    content:"\F4D0"
+}
+.ficon-wifi-in-public-areas:before {
+    content:"\F4D1"
+}
+.ficon-wifi:before {
+    content:"\F4D2"
+}
+.ficon-wind-surfing:before {
+    content:"\F4D3"
+}
+.ficon-wintry-mix-snow-sleet:before {
+    content:"\F4D4"
+}
+.ficon-wired-internet:before {
+    content:"\F4D5"
+}
+.ficon-wooden-parqueted-flooring:before {
+    content:"\F4D6"
+}
+.ficon-world:before {
+    content:"\F4D7"
+}
+.ficon-x-icon:before {
+    content:"\F4D8"
+}
+.ficon-ycs-channels:before {
+    content:"\F4D9"
+}
+.ficon-ycs-dashboard:before {
+    content:"\F4DA"
+}
+.ficon-ycs-doc-csv:before {
+    content:"\F4DB"
+}
+.ficon-ycs-doc-excel:before {
+    content:"\F4DC"
+}
+.ficon-ycs-doc-pdf:before {
+    content:"\F4DD"
+}
+.ficon-ycs-doc-update:before {
+    content:"\F4DE"
+}
+.ficon-ycs-generic:before {
+    content:"\F4DF"
+}
+.ficon-ycs-no-show:before {
+    content:"\F4E0"
+}
+.ficon-year-hotel-built:before {
+    content:"\F4E1"
+}
+.ficon-year-hotel-last-renovated:before {
+    content:"\F4E2"
+}
+.ficon-yoga-room:before {
+    content:"\F4E3"
+}

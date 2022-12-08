@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../../../frontend/poppins/SVN-Poppins.woff2) format('woff2'), url(../../../frontend/poppins/SVN-Poppins.woff2) format('woff');
+}
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: url(../../../frontend/poppins/SVN-PoppinsSemiBold.woff2) format('woff2'), url(../../../frontend/poppins/SVN-PoppinsSemiBold.woff2) format('woff');
+}
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: url(../../../frontend/poppins/SVN-PoppinsBold.woff2) format('woff2'), url(../../../frontend/poppins/SVN-PoppinsBold.woff) format('woff');
+}
+html, body {
+    font-family: 'Poppins', sans-serif;
+}
+.brand {
+    background-color: #175592;
+}
+.brand .brand-logo img {
+    width: 100%;
+}
+.aside {
+    background-color: #1463b2;
+}
+.aside-menu {
+    background-color: #1463b2;
+}
+.input-border-bottom-1px{
+    border: 0px;
+    border-bottom: 1px solid #f3f3f3;
+}
+.icon-blue{
+    color: #1463b2 !important;
+}
+.modal-header-blue{
+    background-color: #1463b2 !important;
+}
+.fs-2-rem{
+    font-size: 2rem !important;
+}

@@ -1,0 +1,573 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Oct 3, 2018, 4:30:27 PM
+    Author     : D4rk
+*/
+.bold {
+    font-weight: 700;
+}
+.font-awesome {
+    font-family: sans-serif, 'FontAwesome';
+}
+
+.error-message {
+    margin-top: 5px;
+    color: red;
+}
+
+.starrr, .starrr-existing {
+    margin-top: 10px;
+}
+
+.starrr-existing a {
+    font-size: 16px;
+    padding: 0 1px;
+    cursor: pointer;
+    color: #FFD119;
+    text-decoration: none;
+}
+.mt15 {
+    margin-top: 15px !important;
+}
+.mt10 {
+    margin-top: 10px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+.mb15 {
+    margin-bottom: 15px;
+}
+.ml15 {
+    margin-left: 15px;
+}
+.fs16 {
+    font-size: 16px;
+}
+
+.icheckbox_flat-green {
+    margin-right: 10px;
+}
+
+a.login-facebook:hover {
+    text-decoration: none;
+}
+
+.search-container {
+    float: right;
+}
+
+.search-container input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+    .search-container {
+        float: none;
+    }
+
+    .search-container input[type=text], .search-container button {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+
+    .search-container input[type=text] {
+        border: 1px solid #ccc;
+    }
+}
+
+.mt05 {
+    margin-top: 5px;
+}
+
+#e-loading-icon {
+    display: none;
+}
+
+
+.table-header-fixed tbody {
+    height: 200px;
+    overflow-y: auto;
+    width: 100%;
+}
+
+.table-header-fixed thead,
+.table-header-fixed tbody,
+.table-header-fixed tr,
+.table-header-fixed td,
+.table-header-fixed th {
+    display: block;
+}
+
+.table-header-fixed tr:after {
+    content: "";
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+.table-header-fixed tbody td,
+.table-header-fixed thead > tr > th {
+    float: left;
+}
+
+.form-inline .btn {
+    margin: 0px;
+}
+
+fieldset.booking-room-item {
+    padding: 0.35em 0.75em 0.625em;
+    border: 1px groove #ddd;
+    margin: 0 0 1.5em 0;
+}
+
+fieldset.booking-room-item legend {
+    width: inherit; /* Or auto */
+    padding: 0 10px; /* To give a bit of padding on the left and right */
+    border-bottom: none;
+    margin-bottom: 0;
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal;
+}
+
+.normal-surcharge-item .icheckbox_flat-green {
+    margin-top: 8px;
+}
+
+.normal-surcharge-item .input-group {
+    margin-bottom: 0;
+}
+
+.no-pad-r {
+    padding-right: 0;
+}
+
+.no-pad-l {
+    padding-left: 0;
+}
+
+.imgs_gird {
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.imgs_gird .end {
+    position: relative;
+}
+
+.imgs_gird .end .other {
+    position: absolute;
+    width: 100%;
+    height: 99%;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    line-height: 120px;
+}
+
+.imgs_gird .end .other-small {
+    position: absolute;
+    width: 97%;
+    height: 97%;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 5px;
+    line-height: 150px;
+}
+
+.grid_1 {
+    height: 500px;
+}
+
+.grid_1 .item_0.big {
+    width: 99%;
+}
+
+.grid_6 {
+    height: 500px;
+}
+
+.grid_6_small {
+    height: auto;
+}
+
+.grid_6 .big {
+    width: 66%;
+    height: 68%;
+    float: left;
+}
+
+.grid_6 .big img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    padding-bottom: 1px;
+    padding-left: 1px;
+}
+
+.grid_6 .small {
+    width: 33%;
+    height: 34%;
+    float: left;
+    padding-left: 1px;
+    padding-bottom: 1px;
+}
+
+.grid_6 .small img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.grid_6_small .super-small {
+    width: 16%;
+    height: 100%;
+    float: left;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+.grid_6_small .super-small img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.grid_6_small .medium-small {
+    width: 25%;
+    height: 100%;
+    float: left;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+.grid_6_small .medium-small img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.payment-fieldset, .invoice-zone, .payment-paytype-hotel, .payment-paytype-partner {
+    display: none;
+}
+
+.textarea-line-break {
+    white-space: pre-line;
+    white-space: pre-wrap;
+}
+
+h5.label {
+    display: inline-block !important;
+    width: 50px !important;
+    white-space: normal !important;
+}
+
+.blur-text {
+    filter: blur(2px);
+}
+
+/* Popup input room */
+.popup-input-room {
+    display: none;
+    position: absolute;
+    z-index: 9999;
+    background: #fff;
+    left: 0px;
+    border: 1px solid #e1e1e1;
+    box-shadow: 1px 1px 1px #e1e1e1;
+    top: 43px;
+    width: 403px
+}
+
+.popup-input-room::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #e1e1e1;
+    position: absolute;
+    top: -15px;
+    left: 30px;
+}
+
+.popup-input-room::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #fff;
+    position: absolute;
+    top: -13px;
+    left: 30px;
+}
+
+.popup-search .config {
+    padding: 10px 0;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.list-search a li {
+    padding-left: 10px;
+}
+
+.list-search a:hover {
+    color: #0d6aad;
+}
+
+.list-search .item {
+    padding: 15px 0;
+    overflow: hidden;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.list-search .item span {
+    padding-left: 20px;
+}
+
+.list-search .item.hover-item {
+    background: lightgrey;
+}
+
+.list-search .item i {
+    line-height: 100%;
+    vertical-align: text-bottom;
+}
+
+.list-search .item i.ion-chatbox {
+    vertical-align: text-top;
+    font-size: 18px;
+}
+
+.search-item-autocomplete:hover {
+    background: #ECEBF0;
+}
+
+.nav-center {
+    text-align: center;
+}
+
+.nav-center ul.nav {
+    display: inline-block;
+}
+.label-yellow {
+    background-color: yellow;
+}
+.message-admin {
+    float: left;
+    min-width: 100px;
+    max-width: 1000px;
+}
+.message-guest {
+    float: right;
+    min-width: 100px;
+    max-width: 1000px;
+}
+.message-admin p{
+    background: lightblue;
+    border: black 1px solid;
+    border-radius: 5px;
+    margin-right: 15%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.message-guest img {
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.message-admin img  {
+    margin-right: 15%;
+    margin-bottom: 10px;
+}
+.message-guest p{
+    border: black 1px solid;
+    border-radius: 5px;
+    text-align: right;
+    right: 40px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.avatar-message{
+    display: flex;
+}
+.avatar-message img{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+}
+.border-message {
+    border: 1px gainsboro solid;
+    height: 100%;
+    min-height: 700px;
+}
+.message-content {
+    min-height: 700px;
+}
+.title-content {
+    margin-bottom: 20px;
+    border-bottom: 1px solid gainsboro;
+    padding: 10px;
+}
+.footer-message{
+    height: 70px;
+    border-top: black 1px solid;
+    padding: 10px;
+    display: flex;
+}
+.message-content{
+    position: relative;
+}
+.footer-content{
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+}
+.footer-message input {
+    border: none;
+    width: 95%;
+    padding-left: 10px;
+}
+.message-file{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.message-file i{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.d-none {
+    display: none !important;
+}
+.name-message {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 95%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.body-content {
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 500px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.search-message {
+    width: 100%;
+    padding: 10px;
+}
+.search-message input {
+    width: 80%;
+    border: none;
+    height: 30px;
+    padding-left: 10px;
+}
+.search-message button {
+    margin-left: 10px;
+}
+.w-100-custom {
+    width: 100%;
+}
+.custom-b {
+    margin-top: 23px !important;
+}
+.float-l {
+    float: left !important;
+}
+.title-message{
+    width: 95%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    height: 25px;
+}
+.custom-lc {
+    padding-top: 10px!important;
+    padding-bottom: 10px!important;
+    margin-left: 0px !important;
+    padding-left: 10px;
+
+}
+.custom-lc:hover{
+    background-color: #d9ecf2;
+}
+.custom-lc:active {
+    background-color: #d9ecf2;
+}
+.custom-lc:focus {
+    background-color: #d9ecf2;
+}
+#chatList {
+    height: 650px;
+    overflow: scroll;
+}
+.avatar-message p {
+    font-size: 20px;
+}
+.custom-notify i{
+    color: white;
+}
+.custom-notify{
+    border-radius: 100%;
+    border: 1px solid red;
+    background-color: red;
+    padding: 0px 3px;
+    float: right;
+    min-width: 22px;
+    text-align: center;
+}
+.opacity-custom {
+    opacity: 0.4;
+}
+#new-message i {
+    float: right;
+    color: red;
+}
+.notify-chat i {
+    float: right;
+    color: red;
+}
+
+/* End popup input room */
